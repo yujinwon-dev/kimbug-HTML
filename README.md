@@ -35,4 +35,63 @@
   </p>
   ```
 
+
+### 제목과 문단 Headings and Paragraph
+
+- 제목에 해당하는 부분에는 Heading Tag(`<h1>`, `<h2>` 등)
+- 문단에 대해서는 `<p>` -> paragrahph
+
+### 강조 Emphasis
+
+- 강조하고자 하는 부분에서 사용. p 태그 내부에서도 가능. 둘 중에 끌리는 걸로 쓰면 됨.
+- 글씨가 두껍다 두껍지 않다보다도 브라우저한테 이 부분이 중요하다고 알려줬다는 게 중요
+
+- `<em></em>`: italic
+- `<strong></strong>`: bold
+
++) `<br />`: break 태그
+
+### 링크 Anchor
+
+- 필수 어트리뷰트 href: hypertext reference(문서 주소값)
+
+- href 주소값 표기 방법
+
+  1. 웹 URL(절대/상대)
+
+     ```html
+     <a href="https://www.google.com/">Google</a>
+     <a href="./index.html">Google</a>
+     ```
+
+  2. 페이지 내 이동
+
+     - 이동하고자 하는 곳의 id값을 적어주면 됨
+
+     ```html
+     <a href="#hello">To Hello</a>
+     ```
+
+  3. 메일 쓰기
+
+     ```html
+     <a href="mailto:메일주소"></a>
+     ```
+
+     ![image-20220203231747878](C:\Users\multicampus\Desktop\wonyu\works\fun-HTML\README.assets\image-20220203231747878.png)
+
+  4. 전화 걸기
+
+     ```html
+     <a href="tel:전화번호"></a>
+     ```
+
+- 또다른 어트리뷰트: target
+
+  - 새로운 탭에서 열렸으면 좋겠을 때
+
+  ```html
+  <a target="_blank">새 탭에서 열기</a>
+  ```
+
   
