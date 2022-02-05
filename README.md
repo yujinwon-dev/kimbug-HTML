@@ -94,4 +94,31 @@
   <a target="_blank">새 탭에서 열기</a>
   ```
 
+
+### 이미지 Image
+
+- 필수 어트리뷰트
+  - src: 경로 or 주소
+  - alt: alternate text - 이미지가 안 뜰 때 대체 텍스트가 있어야 사용자 경험 더 나아짐. 스크린리더를 사용할 때도 해당 값이 사용됨
+
+### 목록 List
+
+- 2가지 종류의 리스트
+  - ol: ordered list(순서가 중요한 목록)
+  - ul: unordered list(순서가 중요하지 않은 목록)
+  - 두 태그의 자식 요소는 **무조건 li만 가능**
+- 리스트 내부의 항목
+  - li: list item
+
+- 리스트 스타일 떼기
+
+  ```html
+  <ul style="list-style-type: none;">
+    <li>
+      웹 개발자
+    </li>
+    ...
+  </ul>
+  ```
+
   
