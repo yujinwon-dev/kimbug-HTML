@@ -121,4 +121,47 @@
   </ul>
   ```
 
+### 정의 목록 Description List
+
+- 용도
+
+	1. 용어를 정의할 때
+	1. key-value로 정보를 제공할 때
+
+- 관련 태그들
+
+  - dl: description list -> ul, ol같은 느낌
+  - dt: key값
+  - dd: description data -> key값에 대한 data
+  - +) dfn: definition -> dt를 좀 더 구체적으로 정의하고 싶을 때
+
+- dl 태그 내에서 하나의 정의 세트를 div로 묶어주는 것도 가능 (**div로만 가능!**)
+
+  ![image-20220205231305704](C:\Users\multicampus\Desktop\wonyu\works\fun-HTML\README.assets\image-20220205231305704.png)
+
+- dd, dt를 여러개 쓸 수 있지만 dt - dd - dt 이런 식으로 번갈아 쓸 수는 없음
+
+### 인용 Quotations
+
+- 관련 태그
+
+  - blockquote: 어떤 문단이나 내용 전체가 인용문일 때. q보다 자주 사용됨
+  - q: 문장 내에 살짝 들어가는 인용문. 쌍따옴표가 생김
+
+- 예시
+
+  ```html
+  <!-- 출처 url: cite 어트리뷰트에 기재 -->
+  <blockquote cite="https://www.google.com/">
+    우리가 겪을 수 있는 가장 아름다운 체험은 신비다. <br/>
+    신비는 모든 참 예술과 과학의 근원이다.
+    <!-- 출처: cite 태그 -->
+    <cite>
+      알버트 아인슈타인
+    </cite>
+  </blockquote>
+  ```
+
+  
+
   
