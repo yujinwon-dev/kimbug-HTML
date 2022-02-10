@@ -302,4 +302,26 @@
   </form>
   ```
 
-  
+
+
+
+### Form(5) - Select & Option
+
+- name은 select에, value는 option에 작성
+
+  ```html
+  <form action="" method="GET">
+      <!-- label은 select에 달아줌 -->
+    <label for="skills">스킬</label>
+    <!-- multiple 어트리뷰트: 다중 선택 가능 -->
+    <select multiple name="skill" id="skills">
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JavaScript">JavaScript</option>
+    </select>
+    <button type="submit">submit</button>
+  </form>
+  ```
+
+
+
