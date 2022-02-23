@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Form - Input</title>
+  <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+</head>
+<body>
+  <!-- GET 방식으로 폼 제출해보면 url에서 subscription=on 이 뜸. 둘 다 -->
+  <!-- 그래서 value를 각각 다르게 해줘야 뭐가 선택됐는지 서버가 확인할 수 있음 -->
+  <form action="" method="GET">
+    <input type="radio" name="subscription" value="subscribed" id="subscribed">
+    <label for="subscribed">구독중</label>
+    <input type="radio" name="subscription" value="unsubscribed" id="unsubscribed">
+    <label for="unsubscribed">미구독</label>
+    <br />
+    <input type="radio" name="like" value="liked" id="liked">
+    <label for="liked">좋아요</label>
+    <input type="radio" name="like" value="unliked" id="unliked">
+    <label for="unliked">몰라요</label>
+    <br />
+    <button>Submit</button>
+  </form>
+</body>
+</html>

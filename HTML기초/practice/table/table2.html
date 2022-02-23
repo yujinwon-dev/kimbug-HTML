@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>표 Table (2) - 심화</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="col">월</th>
+        <th scope="col">화</th>
+        <th scope="col">수</th>
+        <th scope="col">목</th>
+        <th scope="col">금</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- row에 대한 table header -->
+        <th scope="row">1교시</th>
+        <!-- &amp; -> escape code. 브라우저가 헷갈려할 수 있으므로 -->
+        <td rowspan="2">왕초보 HTML &amp; CSS</td>
+        <td>모각코</td>
+        <td rowspan="2">왕초보 HTML &amp; CSS</td>
+        <td>모각코</td>
+        <td rowspan="2">왕초보 HTML &amp; CSS</td>
+      </tr>
+      <tr>
+        <th scope="row">2교시</th>
+        <td rowspan="2">JavaScript 스킬업</td>
+        <td rowspan="2">JavaScript 스킬업</td>
+      </tr>
+      <tr>
+        <th scope="row">3교시</th>
+        <td>JavaScript 시작반</td>
+        <td>JavaScript 시작반</td>
+        <td>JavaScript 시작반</td>
+      </tr>
+      <tr>
+        <td colspan="6">점심시간</td>
+      </tr>
+      <tr>
+        <th scope="row">4교시</th>
+        <td>SASS 기초반</td>
+        <td rowspan="2">HTML &amp; CSS 포트폴리오반</td>
+        <td rowspan="2">Open Seminar</td>
+        <td rowspan="2">HTML &amp; CSS 포트폴리오반</td>
+        <td>SASS 기초반</td>
+      </tr>
+      <tr>
+        <th scope="row">5교시</th>
+        <td>모각코</td>
+        <td>모각코</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
