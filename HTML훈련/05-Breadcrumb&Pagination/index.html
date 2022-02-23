@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Breadcrumb &amp; Pagination</title>
+</head>
+<body>
+  <div class="breadcrumb">
+    <a href="https://github.com/yujinwon-dev" aria-label="Go to yujinwon-dev's profile page">yujinwon-dev</a>
+    <a href="https://github.com/yujinwon-dev/kimbug-HTML">kimbug-HTML</a>
+  </div>
+
+  <div class="pagination">
+    <!-- aria-label : 스크린 리더로 읽었을 때의 label. global attribute이라 어느 태그에나 사용 가능 -->
+    <!-- 보이는 것과 실제로 사용하는 것이 다를 때 애용 -->
+    <!-- 일반적인 사람뿐만 아니라, 불편함이 있는 사람도 고려해야 함 -->
+    <a href="#" class="disabled" aria-label="Go to previous page">Previous</a>
+    <!-- 의미를 생각할 것! pagination에서 1,2,3,4 .. 있다면 순서가 있는 리스트임을 떠올릴 것 -->
+    <ol>
+      <li class="current-page">
+        <a href="#" aria-label="Current Page. Go to page 1">1</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 2">2</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 3">3</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 4">4</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 5">5</a>
+      </li>
+      <li>
+        <button type="button" disabled>...</button>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 6">6</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 7">7</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 8">8</a>
+      </li>
+      <li>
+        <a href="#" aria-label="Go to page 9">9</a>
+      </li>
+    </ol>
+    <a href="#" aria-label="Go to Next Page">Next</a>
+  </div>
+</body>
+</html>
