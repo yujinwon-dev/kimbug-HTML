@@ -45,3 +45,7 @@
 - 아무 설정을 하지 않으면 hyphen 이후에 단어가 잘리고 다음 줄로 넘어간다. 해결 방법은 escape code로 non breaking hyphen을 사용하는 것이었다. escape code를 필요할 때 쓸 줄 아는 것도 중요하겠다는 생각이 들었다.
 
 ![image-20220224182707368](practice.assets/image-20220224182707368.png)
+
+## 10 - Input Group
+
+![image-20220225170946617](C:\Users\multicampus\Desktop\wonyu\works\fun-HTML\HTML훈련\practice.assets\image-20220225170946617.png)
