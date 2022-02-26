@@ -48,4 +48,23 @@
 
 ## 10 - Input Group
 
-![image-20220225170946617](C:\Users\multicampus\Desktop\wonyu\works\fun-HTML\HTML훈련\practice.assets\image-20220225170946617.png)
+![image-20220225170946617](practice.assets/image-20220225170946617.png)
+
+## 11 - Feed
+
+![image-20220226111858560](practice.assets/image-20220226111858560.png)
+
+## 12 - Gmail Inbox
+
+- 눈에는 보이지 않지만 정확하게 전달해야 하는 경우 `sr-only` 클래스를 만들어서 처리할 수 있음
+  - `sr-only` : screen reader only
+
+![image-20220226114724950](practice.assets/image-20220226114724950.png)
+
+## 13 - Music Player
+
+![image-20220226120327244](practice.assets/image-20220226120327244.png)
+
+## 14 - Video Player
+
+![image-20220226121541366](practice.assets/image-20220226121541366.png)
