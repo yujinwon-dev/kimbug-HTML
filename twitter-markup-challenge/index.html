@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- meta:vp + tab -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Markup Challenge</title>
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="#">
+        <img src="#" alt="Twitter" />
+      </a>
+    </h1>
+    <nav>
+      <h1>Global Navigation Menu</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <span>Current page</span>
+            <!-- icon -->
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- icon -->
+            Explore
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <strong aria-label="5 Unread notifications">5</strong>
+            <!-- icon -->
+            Notifications
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- icon -->
+            Messages
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- icon -->
+            Bookmarks
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- icon -->
+            Lists
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- icon -->
+            Profile
+          </a>
+        </li>
+        <li>
+          <button type="button">
+            <!-- icon -->
+            More
+          </button>
+          <!-- TODO: dropdown menu -->
+          <div>
+            <ul>
+              <li>
+                <a href="#">
+                  Topics
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Moments
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Newsletters
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Twitter for Professionals
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Twitter Ads
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Analytics
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">
+                  Settings and privacy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Display
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Keyboard shortcuts
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <button type="button">Tweet</button>
+    </nav>
+  </header>
+  <main>
+    <header>
+      <h1>Home</h1>
+      <button type="button" aria-label="Timeline options">
+        <!-- icon -->
+      </button>
+      <div>
+        <h2>Home shows you top Tweets first</h2>
+        <button type="button">
+          <strong>See latest Tweets instead</strong>
+          <span>You'll be switched back Home after you've been away for a while.</span>
+        </button>
+        <a href="#">
+          View content preferences
+        </a>
+      </div>
+    </header>
+    <section>
+      <h1>What's happening?</h1>
+      <form action="#" method="POST">
+        <img src="https://pbs.twimg.com/profile_images/1464987325042425856/HGLSBW23_400x400.jpg" alt="@yujinwon-dev">
+        <textarea placeholder="What's happening?" maxlength="280"></textarea>
+    
+        <button type="button" aria-label="Upload files">
+          <!-- icon -->
+        </button>
+        <!-- input 태그는 스타일 작업이 어려움 -->
+        <input type="file" multiple accept="image/*, video/*">
+        <button type="button" aria-label="Search GIFs...">
+          <!-- icon -->
+        </button>
+        <button type="button" aria-label="Create a poll">
+          <!-- icon -->
+        </button>
+        <button type="button" aria-label="Choose emoji">
+          <!-- icon -->
+        </button>
+        
+        <!-- 중요한 정보니까 strong. 스타일은 이후에 채우면 됨 -->
+        <strong aria-label="0 out of 280 charcters"></strong>
+        <button type="button" aria-label="Add another tweet">
+          <!-- icon -->
+        </button>
+        <button type="submit">Tweet</button>
+      </form>
+    </section>
+    <section>
+      <h1>Your Timeline</h1>
+      <ol>
+        <li>
+          <article>
+            <h1>A tweet from 김익명</h1>
+            <header>
+              <a href="#">
+                <img src="https://pbs.twimg.com/profile_images/1464987325042425856/HGLSBW23_400x400.jpg" alt="김익명">
+              </a>
+              <h2>
+                <a href="#">
+                  김익명
+                </a>
+              </h2>
+              <dl>
+                <div>
+                  <!-- 눈에 보이지 않더라도 dt 작성 -->
+                  <dt>
+                    Username
+                  </dt>
+                  <dd>
+                    <a href="#">
+                      @anonymouskim
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Posted</dt>
+                  <dd>
+                    <a href="#">
+                      Feb 26
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+              <button type="button" aria-label="Options">
+                <!-- icon -->
+              </button>
+              <div>
+                <button type="button">
+                  <!-- icon -->
+                  Show less often
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Unfollow @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Mute @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Block @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Report Tweet
+                </button>
+              </div>
+            </header>
+          
+            <p>
+              영어를 더 잘 하고싶다. 그러나 공부를 하고 싶지는 않다. 내 삶의 모든 것이 이런 식으로 망해왔다
+            </p>
+          
+            <footer>
+              <button type="button">
+                <span class="sr-only">Tweet your reply</span>
+                <strong aria-label="3 replies">3</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Retweet</span>
+                <strong aria-label="3 retweets">3</strong>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Retweet</button>
+                <button type="button">Retweet with comment</button>
+              </div>
+              <button type="button">
+                <span class="sr-only">Like this tweet</span>
+                <strong aria-label="100 liked">100</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Share</span>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Send via Direct Message</button>
+                <button type="button">Add Tweet to Bookmarks</button>
+                <button type="button">Copy link to Tweet</button>
+              </div>
+            </footer>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h1>A tweet from 김익명</h1>
+            <header>
+              <a href="#">
+                <img src="https://pbs.twimg.com/profile_images/1464987325042425856/HGLSBW23_400x400.jpg" alt="김익명">
+              </a>
+              <h2>
+                <a href="#">
+                  김익명
+                </a>
+              </h2>
+              <dl>
+                <div>
+                  <!-- 눈에 보이지 않더라도 dt 작성 -->
+                  <dt>
+                    Username
+                  </dt>
+                  <dd>
+                    <a href="#">
+                      @anonymouskim
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Posted</dt>
+                  <dd>
+                    <a href="#">
+                      Feb 26
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+              <button type="button" aria-label="Options">
+                <!-- icon -->
+              </button>
+              <div>
+                <button type="button">
+                  <!-- icon -->
+                  Show less often
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Unfollow @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Mute @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Block @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Report Tweet
+                </button>
+              </div>
+            </header>
+          
+            <p>
+              영어를 더 잘 하고싶다. 그러나 공부를 하고 싶지는 않다. 내 삶의 모든 것이 이런 식으로 망해왔다
+            </p>
+          
+            <footer>
+              <button type="button">
+                <span class="sr-only">Tweet your reply</span>
+                <strong aria-label="3 replies">3</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Retweet</span>
+                <strong aria-label="3 retweets">3</strong>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Retweet</button>
+                <button type="button">Retweet with comment</button>
+              </div>
+              <button type="button">
+                <span class="sr-only">Like this tweet</span>
+                <strong aria-label="100 liked">100</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Share</span>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Send via Direct Message</button>
+                <button type="button">Add Tweet to Bookmarks</button>
+                <button type="button">Copy link to Tweet</button>
+              </div>
+            </footer>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h1>A tweet from 김익명</h1>
+            <header>
+              <a href="#">
+                <img src="https://pbs.twimg.com/profile_images/1464987325042425856/HGLSBW23_400x400.jpg" alt="김익명">
+              </a>
+              <h2>
+                <a href="#">
+                  김익명
+                </a>
+              </h2>
+              <dl>
+                <div>
+                  <!-- 눈에 보이지 않더라도 dt 작성 -->
+                  <dt>
+                    Username
+                  </dt>
+                  <dd>
+                    <a href="#">
+                      @anonymouskim
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Posted</dt>
+                  <dd>
+                    <a href="#">
+                      Feb 26
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+              <button type="button" aria-label="Options">
+                <!-- icon -->
+              </button>
+              <div>
+                <button type="button">
+                  <!-- icon -->
+                  Show less often
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Unfollow @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Mute @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Block @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Report Tweet
+                </button>
+              </div>
+            </header>
+          
+            <p>
+              영어를 더 잘 하고싶다. 그러나 공부를 하고 싶지는 않다. 내 삶의 모든 것이 이런 식으로 망해왔다
+            </p>
+          
+            <footer>
+              <button type="button">
+                <span class="sr-only">Tweet your reply</span>
+                <strong aria-label="3 replies">3</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Retweet</span>
+                <strong aria-label="3 retweets">3</strong>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Retweet</button>
+                <button type="button">Retweet with comment</button>
+              </div>
+              <button type="button">
+                <span class="sr-only">Like this tweet</span>
+                <strong aria-label="100 liked">100</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Share</span>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Send via Direct Message</button>
+                <button type="button">Add Tweet to Bookmarks</button>
+                <button type="button">Copy link to Tweet</button>
+              </div>
+            </footer>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h1>A tweet from 김익명</h1>
+            <header>
+              <a href="#">
+                <img src="https://pbs.twimg.com/profile_images/1464987325042425856/HGLSBW23_400x400.jpg" alt="김익명">
+              </a>
+              <h2>
+                <a href="#">
+                  김익명
+                </a>
+              </h2>
+              <dl>
+                <div>
+                  <!-- 눈에 보이지 않더라도 dt 작성 -->
+                  <dt>
+                    Username
+                  </dt>
+                  <dd>
+                    <a href="#">
+                      @anonymouskim
+                    </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Posted</dt>
+                  <dd>
+                    <a href="#">
+                      Feb 26
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+              <button type="button" aria-label="Options">
+                <!-- icon -->
+              </button>
+              <div>
+                <button type="button">
+                  <!-- icon -->
+                  Show less often
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Unfollow @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Mute @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Block @anonymouskim
+                </button>
+                <button type="button">
+                  <!-- icon -->
+                  Report Tweet
+                </button>
+              </div>
+            </header>
+          
+            <p>
+              영어를 더 잘 하고싶다. 그러나 공부를 하고 싶지는 않다. 내 삶의 모든 것이 이런 식으로 망해왔다
+            </p>
+          
+            <footer>
+              <button type="button">
+                <span class="sr-only">Tweet your reply</span>
+                <strong aria-label="3 replies">3</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Retweet</span>
+                <strong aria-label="3 retweets">3</strong>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Retweet</button>
+                <button type="button">Retweet with comment</button>
+              </div>
+              <button type="button">
+                <span class="sr-only">Like this tweet</span>
+                <strong aria-label="100 liked">100</strong>
+              </button>
+              <button type="button">
+                <span class="sr-only">Share</span>
+              </button>
+              <!-- dropdown -->
+              <div>
+                <button type="button">Send via Direct Message</button>
+                <button type="button">Add Tweet to Bookmarks</button>
+                <button type="button">Copy link to Tweet</button>
+              </div>
+            </footer>
+          </article>
+        </li>
+      </ol>
+    </section>
+  </main>
+  <aside>
+    <header>
+      <h1>Worldwide trends</h1>
+      <button type="button" aria-label="Options">
+        <!-- icon -->
+      </button>
+    </header>
+    <ol>
+      <li>
+        <button type="button" aria-label="Options">
+          <!-- icon -->
+        </button>
+        <!-- dropdown -->
+        <div>
+          <button type="button">
+            <!-- icon -->
+            Not interested in this
+          </button>
+          <button type="button">
+            <!-- icon -->
+            This trend is harmful or spammy
+          </button>
+        </div>
+        <a href="#">
+          <span>1 ▪ Trending worldwide</span>
+          <strong lang="ko">#원유진</strong>
+          <span>100K tweets</span>
+        </a>
+      </li>
+      <li>
+        <button type="button" aria-label="Options">
+          <!-- icon -->
+        </button>
+        <!-- dropdown -->
+        <div>
+          <button type="button">
+            <!-- icon -->
+            Not interested in this
+          </button>
+          <button type="button">
+            <!-- icon -->
+            This trend is harmful or spammy
+          </button>
+        </div>
+        <a href="#">
+          <span>2 ▪ Trending worldwide</span>
+          <strong lang="ko">#원유진</strong>
+          <span>100K tweets</span>
+        </a>
+      </li>
+      <li>
+        <button type="button" aria-label="Options">
+          <!-- icon -->
+        </button>
+        <!-- dropdown -->
+        <div>
+          <button type="button">
+            <!-- icon -->
+            Not interested in this
+          </button>
+          <button type="button">
+            <!-- icon -->
+            This trend is harmful or spammy
+          </button>
+        </div>
+        <a href="#">
+          <span>3 ▪ Trending worldwide</span>
+          <strong lang="ko">#원유진</strong>
+          <span>100K tweets</span>
+        </a>
+      </li>
+      <li>
+        <button type="button" aria-label="Options">
+          <!-- icon -->
+        </button>
+        <!-- dropdown -->
+        <div>
+          <button type="button">
+            <!-- icon -->
+            Not interested in this
+          </button>
+          <button type="button">
+            <!-- icon -->
+            This trend is harmful or spammy
+          </button>
+        </div>
+        <a href="#">
+          <span>4 ▪ Trending worldwide</span>
+          <strong lang="ko">#원유진</strong>
+          <span>100K tweets</span>
+        </a>
+      </li>
+    </ol>
+    <button type="button">
+      Show more
+    </button>
+  </aside>
+  <footer>
+    <a href="#" target="_blank">
+      Terms
+    </a>
+    <a href="#" target="_blank">
+      Privacy policy
+    </a>
+    <a href="#" target="_blank">
+      Cookies
+    </a>
+    <a href="#" target="_blank">
+      Ads info
+    </a>
+    <button type="button">
+      More
+      <!-- icon -->
+    </button>
+    <div>
+      <a href="#" target="_blank">About</a>
+      <a href="#" target="_blank">Status</a>
+      <a href="#" target="_blank">Businesses</a>
+      <a href="#" target="_blank">Developers</a>
+    </div>
+    <span>
+      © 2019 Twitter, Inc.
+    </span>
+  </footer>  
+</body>
+</html>
